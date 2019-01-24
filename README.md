@@ -64,7 +64,6 @@ With Turbine Stream enabled
 With both the front end service throwing all the traffic to backend, turbine with help of rabbitMQ collectively shows the hystrix dashboard
 ![alt text](https://github.com/Hitman007IN/Spring_Cloud_Platform_Micoservice_Architecture/blob/master/Snapshots/Screenshot%202019-01-17%20at%2012.05.47%20AM.png)
 
-Routing Framework
 
 ![alt text](https://github.com/Hitman007IN/Spring_Cloud_Platform_Micoservice_Architecture/blob/master/Snapshots/routing1.PNG)
 
@@ -72,7 +71,13 @@ Ribbon was introduced by Netflix because the AWS Load balancer mainly concentrat
 
 ![alt text](https://github.com/Hitman007IN/Spring_Cloud_Platform_Micoservice_Architecture/blob/master/Snapshots/routing2.PNG)
 
+Ribbon has inbuilt circuit breaker, but just the basics and works fine with hystrix and other cloud frameworks
 
+![alt text](https://github.com/Hitman007IN/Spring_Cloud_Platform_Micoservice_Architecture/blob/master/Snapshots/routing3.PNG)
+
+![alt text](https://github.com/Hitman007IN/Spring_Cloud_Platform_Micoservice_Architecture/blob/master/Snapshots/routing4.PNG)
+
+Netflix Ribbon Repo - https://github.com/Netflix/ribbon
 
                                             !!!!!!! More To Come !!!!!!!
 
