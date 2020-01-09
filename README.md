@@ -9,11 +9,11 @@ The following technologies and frameworks are used:-
 2) Spring + Netflix OSS
   1) Spring Boot
   2) Spring Cloud
-    1) Eureka
-    2) Hystrix
-    3) Ribbon
-    4) Turbine
-    5) Dataflow Stream
+    - Eureka
+    - Hystrix
+    - Ribbon
+    - Turbine
+    - Dataflow Stream
 3) Docker
 4) RabbitMQ
 
